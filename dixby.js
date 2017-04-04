@@ -5,7 +5,6 @@ var spotify = require('spotify');
 var request = require('request');
 var inquirer = require('inquirer');
 var fs = require('fs');
-var client = new twitter(keys.twitterKeys);
 var client = new twitter({
        consumer_key: keys.twitterKeys.consumer_key,
        consumer_secret: keys.twitterKeys.consumer_secret,
@@ -28,7 +27,6 @@ function twentyTweets(){
 					"Published: " + tweets.created_at + "\n";
 					logText(tweetOutput);
 					console.log(tweetOutput);
-					console.log(client);
 				})
 			}
 
