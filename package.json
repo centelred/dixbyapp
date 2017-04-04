@@ -1,0 +1,32 @@
+{
+  "name": "dixby",
+  "version": "1.0.0",
+  "description": "dixby node app week 10",
+  "main": "keys.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/centelred/dixbyapp.git"
+  },
+  "keywords": [
+    "dixby",
+    "AI",
+    "node.js"
+  ],
+  "author": "Curtis Coddington",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/centelred/dixbyapp/issues"
+  },
+  "homepage": "https://github.com/centelred/dixbyapp#readme",
+  "dependencies": {
+    "fs": "0.0.1-security",
+    "inquirer": "^3.0.6",
+    "request": "^2.81.0",
+    "require": "^2.4.20",
+    "spotify": "^0.3.0",
+    "twitter": "^1.7.0"
+  }
+}
